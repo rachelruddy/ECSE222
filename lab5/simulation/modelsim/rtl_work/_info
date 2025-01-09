@@ -1,0 +1,219 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dP:/lab5/simulation/modelsim
+Erachel_ruddy_clock_divider
+Z1 w1732318376
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z7 8P:/lab5/rachel_ruddy_clock_divider.vhd
+Z8 FP:/lab5/rachel_ruddy_clock_divider.vhd
+l0
+L6
+VBKDMXG<Bbi[ji0[L:_2<f2
+!s100 jUW`<Y2jgNnLbRJ<8h:XB3
+Z9 OV;C;10.5b;63
+31
+Z10 !s110 1732322927
+!i10b 1
+Z11 !s108 1732322927.000000
+Z12 !s90 -reportprogress|300|-93|-work|work|P:/lab5/rachel_ruddy_clock_divider.vhd|
+Z13 !s107 P:/lab5/rachel_ruddy_clock_divider.vhd|
+!i113 1
+Z14 o-93 -work work
+Z15 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+R5
+R6
+DEx4 work 26 rachel_ruddy_clock_divider 0 22 BKDMXG<Bbi[ji0[L:_2<f2
+l19
+L15
+VDXoSccmPC3odO939]hd:e3
+!s100 hkhE>a0?R=Mz_bgR<8HNY0
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Erachel_ruddy_counter
+Z16 w1732118877
+R4
+R5
+R6
+R0
+Z17 8P:/lab5/rachel_ruddy_counter.vhd
+Z18 FP:/lab5/rachel_ruddy_counter.vhd
+l0
+L5
+Vf:cOf0_TK=ZF<_MA9BS7D2
+!s100 7C^zdP5N_=;86B<>]YlWo2
+R9
+31
+Z19 !s110 1732322926
+!i10b 1
+Z20 !s108 1732322926.000000
+Z21 !s90 -reportprogress|300|-93|-work|work|P:/lab5/rachel_ruddy_counter.vhd|
+Z22 !s107 P:/lab5/rachel_ruddy_counter.vhd|
+!i113 1
+R14
+R15
+Abehavioural
+R4
+R5
+R6
+DEx4 work 20 rachel_ruddy_counter 0 22 f:cOf0_TK=ZF<_MA9BS7D2
+l16
+L14
+VU>OmYKhI8@gPZFXNbMN`z3
+!s100 6FJf9DjZ9:PYdXORVLHO80
+R9
+31
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R14
+R15
+Erachel_ruddy_wrapper
+Z23 w1732321593
+R4
+R5
+R6
+R0
+Z24 8P:/lab5/rachel_ruddy_wrapper.vhd
+Z25 FP:/lab5/rachel_ruddy_wrapper.vhd
+l0
+L9
+VH7bF<G2@zj4I9iK^;ZX7H2
+!s100 a?]MzlN07A@FAG:;FlVNO1
+R9
+31
+R10
+!i10b 1
+R11
+Z26 !s90 -reportprogress|300|-93|-work|work|P:/lab5/rachel_ruddy_wrapper.vhd|
+Z27 !s107 P:/lab5/rachel_ruddy_wrapper.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R4
+R5
+R6
+DEx4 work 20 rachel_ruddy_wrapper 0 22 H7bF<G2@zj4I9iK^;ZX7H2
+l47
+L16
+V_oUkbKZ>hLI0T1<n5GLC[2
+!s100 V68zggiINmZR]0D9aVCgm1
+R9
+31
+R10
+!i10b 1
+R11
+R26
+R27
+!i113 1
+R14
+R15
+Eseven_segment_decoder
+Z28 w1732118859
+R4
+R5
+R6
+R0
+Z29 8P:/lab5/seven_segment_decoder.vhd
+Z30 FP:/lab5/seven_segment_decoder.vhd
+l0
+L5
+VIYj0V^_im[P;dn=Hoa@ZH1
+!s100 8Q`bLWU>2;a5ckR1@SGTO0
+R9
+31
+R10
+!i10b 1
+R11
+Z31 !s90 -reportprogress|300|-93|-work|work|P:/lab5/seven_segment_decoder.vhd|
+Z32 !s107 P:/lab5/seven_segment_decoder.vhd|
+!i113 1
+R14
+R15
+Adecoder
+R4
+R5
+R6
+DEx4 work 21 seven_segment_decoder 0 22 IYj0V^_im[P;dn=Hoa@ZH1
+l12
+L11
+VR?NjIfl1oR861JZHb94Vg1
+!s100 l:HEec>^Z?B53;T@Ui=?=2
+R9
+31
+R10
+!i10b 1
+R11
+R31
+R32
+!i113 1
+R14
+R15
+Etb_3bit_up_counter
+Z33 w1732322630
+R4
+R5
+R6
+R0
+Z34 8P:/lab5/tb_3bit_up_counter.vhd
+Z35 FP:/lab5/tb_3bit_up_counter.vhd
+l0
+L6
+V0eQ9WZM<<fZ3bOmEeH;JH3
+!s100 V[RaJ`NTU6OjM6HiAaT3d1
+R9
+31
+R10
+!i10b 1
+R11
+Z36 !s90 -reportprogress|300|-93|-work|work|P:/lab5/tb_3bit_up_counter.vhd|
+Z37 !s107 P:/lab5/tb_3bit_up_counter.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R4
+R5
+R6
+DEx4 work 18 tb_3bit_up_counter 0 22 0eQ9WZM<<fZ3bOmEeH;JH3
+l28
+L10
+Vmzh<A?JSWU31a:F08ReU43
+!s100 z@1Ylk[U?hd4dY6T_cQAB3
+R9
+31
+R10
+!i10b 1
+R11
+R36
+R37
+!i113 1
+R14
+R15

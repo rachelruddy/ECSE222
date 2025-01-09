@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, P:/lab1/or_gate.vhd
+source_file = 1, P:/lab1/or_gate_testbench.vhd
+source_file = 1, P:/lab1/xnor_gate.vhd
+source_file = 1, P:/lab1/testbench.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, P:/lab1/db/rachel_ruddy_vhdl1.cbx.xml
+design_name = xnor_gate
+instance = comp, \q~output\, q~output, xnor_gate, 1
+instance = comp, \b~input\, b~input, xnor_gate, 1
+instance = comp, \a~input\, a~input, xnor_gate, 1
+instance = comp, \q~0\, q~0, xnor_gate, 1
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, xnor_gate, 1

@@ -1,0 +1,11 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+entity rachel_ruddy_wrapper is
+	port(
+		enable : in std_logic;
+		reset : in std_logic;
+		clk : in std_logic;
+		HEX0 : out std_logic_vector(6 downto 0));
+end rachel_ruddy_wrapper;

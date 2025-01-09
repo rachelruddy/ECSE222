@@ -1,0 +1,58 @@
+P:/lab5/seven_segment_decoder.vhd {1 {vcom -work work -2002 -explicit -stats=none P:/lab5/seven_segment_decoder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity seven_segment_decoder
+-- Compiling architecture decoder of seven_segment_decoder
+
+} {} {}} P:/lab5/rachel_ruddy_counter.vhd {1 {vcom -work work -2002 -explicit -stats=none P:/lab5/rachel_ruddy_counter.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity rachel_ruddy_counter
+-- Compiling architecture Behavioural of rachel_ruddy_counter
+
+} {} {}} P:/lab5/tb_3bit_up_counter.vhd {1 {vcom -work work -2002 -explicit -stats=none P:/lab5/tb_3bit_up_counter.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_3bit_up_counter
+-- Compiling architecture behavioral of tb_3bit_up_counter
+
+} {} {}} P:/lab5/rachel_ruddy_wrapper.vhd {1 {vcom -work work -2002 -explicit -stats=none P:/lab5/rachel_ruddy_wrapper.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity rachel_ruddy_wrapper
+-- Compiling architecture behavioral of rachel_ruddy_wrapper
+
+} {} {}} P:/lab5/tb_clock_divider.vhd {1 {vcom -work work -2002 -explicit -stats=none P:/lab5/tb_clock_divider.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity tb_clock_divider
+-- Compiling architecture behavior of tb_clock_divider
+
+} {} {}} P:/lab5/rachel_ruddy_clock_divider.vhd {1 {vcom -work work -2002 -explicit -stats=none P:/lab5/rachel_ruddy_clock_divider.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity rachel_ruddy_clock_divider
+-- Compiling architecture Behavioral of rachel_ruddy_clock_divider
+
+} {} {}}

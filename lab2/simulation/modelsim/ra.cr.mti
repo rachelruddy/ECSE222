@@ -1,0 +1,29 @@
+P:/lab2/rachel_ruddy_MUX_behavioral.vhd {1 {vcom -work work -2002 -explicit -stats=none P:/lab2/rachel_ruddy_MUX_behavioral.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity rachel_ruddy_MUX_behavioral
+-- Compiling architecture Behavioral of rachel_ruddy_MUX_behavioral
+
+} {} {}} P:/lab2/rachel_ruddy_barrel_shifter_behavioral.vhd {1 {vcom -work work -2002 -explicit -stats=none P:/lab2/rachel_ruddy_barrel_shifter_behavioral.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity rachel_ruddy_barrel_shifter_behavioral
+-- Compiling architecture Behavioral of rachel_ruddy_barrel_shifter_behavioral
+
+} {} {}} P:/lab2/rachel_ruddy_barrel_shifter_tb.vhd {2 {vcom -work work -2002 -explicit -stats=none P:/lab2/rachel_ruddy_barrel_shifter_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity rachel_ruddy_barrel_shifter_tb
+-- Compiling architecture Testbench of rachel_ruddy_barrel_shifter_tb
+** Warning: P:/lab2/rachel_ruddy_barrel_shifter_tb.vhd(53): (vcom-1090) Possible infinite loop: Process contains no WAIT statement.
+
+} {} {}}

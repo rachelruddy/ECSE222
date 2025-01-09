@@ -1,0 +1,22 @@
+P:/lab5/rachel_ruddy_clock_divider.vhd {1 {vcom -work work -2002 -explicit -stats=none P:/lab5/rachel_ruddy_clock_divider.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity rachel_ruddy_clock_divider
+-- Compiling architecture Behavioral of rachel_ruddy_clock_divider
+
+} {} {}} P:/lab5/tb_clock_divider.vhd {1 {vcom -work work -2002 -explicit -stats=none P:/lab5/tb_clock_divider.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity tb_clock_divider
+-- Compiling architecture behavior of tb_clock_divider
+
+} {} {}}

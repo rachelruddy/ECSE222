@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, P:/lab2/rachel_ruddy_MUX_behavioral.vhd
+source_file = 1, P:/lab2/rachel_ruddy_barrel_shifter_structural.vhd
+source_file = 1, P:/lab2/rachel_ruddy_barrel_shifter_tb.vhd
+source_file = 1, P:/lab2/rachel_ruddy_barrel_shifter_behavioral.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, P:/lab2/db/rachel_ruddy_comp.cbx.xml
+design_name = rachel_ruddy_MUX_behavioral
+instance = comp, \Y~output\, Y~output, rachel_ruddy_MUX_behavioral, 1
+instance = comp, \A~input\, A~input, rachel_ruddy_MUX_behavioral, 1
+instance = comp, \B~input\, B~input, rachel_ruddy_MUX_behavioral, 1
+instance = comp, \S~input\, S~input, rachel_ruddy_MUX_behavioral, 1
+instance = comp, \Selector0~0\, Selector0~0, rachel_ruddy_MUX_behavioral, 1
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, rachel_ruddy_MUX_behavioral, 1

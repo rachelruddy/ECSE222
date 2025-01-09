@@ -1,0 +1,116 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do rachel_ruddy_vhdl1_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {P:/lab1/xnor_gate.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:09:32 on Sep 17,2024
+# vcom -reportprogress 300 -93 -work work P:/lab1/xnor_gate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xnor_gate
+# -- Compiling architecture rtl of xnor_gate
+# End time: 15:09:32 on Sep 17,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {P:/lab1/testbench.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:09:32 on Sep 17,2024
+# vcom -reportprogress 300 -93 -work work P:/lab1/testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity testbenchxnor
+# -- Compiling architecture tb of testbenchxnor
+# End time: 15:09:33 on Sep 17,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  testbench.vhd
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=""+acc"" testbench.vhd 
+# Start time: 15:09:33 on Sep 17,2024
+# ** Error (suppressible): (vsim-19) Failed to access library 'testbench' at "testbench".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./rachel_ruddy_vhdl1_run_msim_rtl_vhdl.do PAUSED at line 12
+vcom -93 -work work P:/lab1/testbench.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:10:36 on Sep 17,2024
+# vcom -reportprogress 300 -93 -work work P:/lab1/testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity testbenchxnor
+# -- Compiling architecture tb of testbenchxnor
+# End time: 15:10:36 on Sep 17,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -93 -work work P:/lab1/xnor_gate.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:10:37 on Sep 17,2024
+# vcom -reportprogress 300 -93 -work work P:/lab1/xnor_gate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xnor_gate
+# -- Compiling architecture rtl of xnor_gate
+# End time: 15:10:37 on Sep 17,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testbenchxnor
+# vsim work.testbenchxnor 
+# Start time: 15:09:33 on Sep 17,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.testbenchxnor(tb)
+# Loading work.xnor_gate(rtl)
+add wave -position insertpoint sim:/testbenchxnor/*
+run
+# Simulation may not continue after final blocks are run.
+vcom -93 -work work P:/lab1/testbench.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:11:39 on Sep 17,2024
+# vcom -reportprogress 300 -93 -work work P:/lab1/testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity testbenchxnor
+# -- Compiling architecture tb of testbenchxnor
+# End time: 15:11:39 on Sep 17,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -93 -work work P:/lab1/xnor_gate.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:11:41 on Sep 17,2024
+# vcom -reportprogress 300 -93 -work work P:/lab1/xnor_gate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xnor_gate
+# -- Compiling architecture rtl of xnor_gate
+# End time: 15:11:41 on Sep 17,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testbenchxnor
+# End time: 15:11:46 on Sep 17,2024, Elapsed time: 0:02:13
+# Errors: 1, Warnings: 0
+# vsim work.testbenchxnor 
+# Start time: 15:11:46 on Sep 17,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.testbenchxnor(tb)
+# Loading work.xnor_gate(rtl)
+add wave -position insertpoint sim:/testbenchxnor/*
+run
+# ** Note: Test done.
+#    Time: 4 ns  Iteration: 0  Instance: /testbenchxnor
+# End time: 15:13:55 on Sep 17,2024, Elapsed time: 0:02:09
+# Errors: 0, Warnings: 0

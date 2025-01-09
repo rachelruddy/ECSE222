@@ -1,0 +1,48 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+entity tb_clock_divider is
+end tb_clock_divider;
+
+architecture behavior of tb_clock_divider is
+
+    signal enable  : std_logic := '0';
+    signal reset   : std_logic := '0';
+    signal clk     : std_logic := '0';
+    signal en_out  : std_logic;
+
+    constant clk_period : time := 20 ns;
+
+begin
+
+    uut: entity work.rachel_ruddy_clock_divider
+        port map (enable => enable, reset => reset, clk => clk, en_out => en_out);
+
+    clk_process : process
+    begin
+        clk <= '0';
+        wait for clk_period / 2;
+        clk <= '1';
+        wait for clk_period / 2;
+    end process;
+
+    stimulus_process : process
+    begin
+        reset <= '1';
+        wait for 40 ns;
+
+        reset <= '0';
+        wait for 20 ns;
+
+        enable <= '1';
+        
+        wait for 2000 ns;
+
+        enable <= '0';
+        wait for 1000 ns;
+
+        wait;
+    end process;
+
+end behavior;

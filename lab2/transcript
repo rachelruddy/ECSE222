@@ -1,0 +1,120 @@
+# Compile of rachel_ruddy_comp.vhd was successful.
+# Compile of rachel_ruddy_comp.vht was successful.
+# Compile of rachel_ruddy_MUX_tst.vhd was successful.
+# Compile of rachel_ruddy_MUX_behavioral.vhd was successful.
+# Compile of rachel_ruddy_MUX_structural.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+# Compile of rachel_ruddy_comp.vhd was successful.
+# Compile of rachel_ruddy_comp.vht was successful.
+# Compile of rachel_ruddy_MUX_tst.vhd was successful.
+# Compile of rachel_ruddy_MUX_behavioral.vhd was successful.
+# Compile of rachel_ruddy_MUX_structural.vhd was successful.
+# Compile of rachel_ruddy_barrel_shifter_behavioral.vhd was successful.
+# Compile of rachel_ruddy_barrel_shifter_structural.vhd was successful.
+# Compile of rachel_ruddy_barrel_shifter_tb.vhd was successful.
+# 8 compiles, 0 failed with no errors.
+# Load canceled
+vsim work.rachel_ruddy_barrel_shifter_tb
+# vsim work.rachel_ruddy_barrel_shifter_tb 
+# Start time: 15:28:02 on Oct 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.rachel_ruddy_barrel_shifter_tb(testbench)
+# Loading work.rachel_ruddy_barrel_shifter_structural(structural)
+# Loading work.rachel_ruddy_mux_behavioral(behavioral)
+# Loading work.rachel_ruddy_barrel_shifter_behavioral(behavioral)
+# ** Warning: (vsim-8684) No drivers exist on out port /rachel_ruddy_barrel_shifter_tb/i1/Y(3), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /rachel_ruddy_barrel_shifter_tb/Y_structural(3).
+add wave -position insertpoint sim:/rachel_ruddy_barrel_shifter_tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: rruddy1  Hostname: 156TR4060-14  ProcessID: 11240
+#           Attempting to use alternate WLF file "./wlfty38z55".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfty38z55
+add wave -position end  sim:/rachel_ruddy_barrel_shifter_tb/X
+add wave -position end  sim:/rachel_ruddy_barrel_shifter_tb/stage1
+add wave -position end  sim:/rachel_ruddy_barrel_shifter_tb/sel
+add wave -position end  sim:/rachel_ruddy_barrel_shifter_tb/Y_structural
+add wave -position end  sim:/rachel_ruddy_barrel_shifter_tb/Y_behavioral
+run
+add wave -position end  sim:/rachel_ruddy_barrel_shifter_tb/X
+add wave -position end  sim:/rachel_ruddy_barrel_shifter_tb/stage1
+add wave -position end  sim:/rachel_ruddy_barrel_shifter_tb/sel
+add wave -position end  sim:/rachel_ruddy_barrel_shifter_tb/Y_structural
+run
+run
+run
+run
+run
+run
+run
+vsim work.rachel_ruddy_barrel_shifter_tb
+# End time: 15:33:50 on Oct 09,2024, Elapsed time: 0:05:48
+# Errors: 0, Warnings: 3
+# vsim work.rachel_ruddy_barrel_shifter_tb 
+# Start time: 15:33:50 on Oct 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.rachel_ruddy_barrel_shifter_tb(testbench)
+# Loading work.rachel_ruddy_barrel_shifter_structural(structural)
+# Loading work.rachel_ruddy_mux_behavioral(behavioral)
+# Loading work.rachel_ruddy_barrel_shifter_behavioral(behavioral)
+# ** Warning: (vsim-8684) No drivers exist on out port /rachel_ruddy_barrel_shifter_tb/i1/Y(3), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /rachel_ruddy_barrel_shifter_tb/Y_structural(3).
+add wave -position insertpoint  \
+sim:/rachel_ruddy_barrel_shifter_tb/X \
+sim:/rachel_ruddy_barrel_shifter_tb/stage1 \
+sim:/rachel_ruddy_barrel_shifter_tb/sel \
+sim:/rachel_ruddy_barrel_shifter_tb/Y_structural \
+sim:/rachel_ruddy_barrel_shifter_tb/Y_behavioral
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: rruddy1  Hostname: 156TR4060-14  ProcessID: 11240
+#           Attempting to use alternate WLF file "./wlftdzdqc3".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftdzdqc3
+run
+# Compile of rachel_ruddy_MUX_behavioral.vhd was successful.
+# Compile of rachel_ruddy_barrel_shifter_behavioral.vhd was successful.
+# Compile of rachel_ruddy_barrel_shifter_structural.vhd was successful.
+# Compile of rachel_ruddy_barrel_shifter_tb.vhd was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.rachel_ruddy_barrel_shifter_tb
+# End time: 15:39:54 on Oct 09,2024, Elapsed time: 0:06:04
+# Errors: 0, Warnings: 3
+# vsim work.rachel_ruddy_barrel_shifter_tb 
+# Start time: 15:39:54 on Oct 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.rachel_ruddy_barrel_shifter_tb(testbench)
+# Loading work.rachel_ruddy_barrel_shifter_structural(structural)
+# Loading work.rachel_ruddy_mux_behavioral(behavioral)
+# ** Warning: (vsim-8684) No drivers exist on out port /rachel_ruddy_barrel_shifter_tb/i1/Y(3), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /rachel_ruddy_barrel_shifter_tb/Y_structural(3).
+add wave -position end  sim:/rachel_ruddy_barrel_shifter_tb/X
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: rruddy1  Hostname: 156TR4060-14  ProcessID: 11240
+#           Attempting to use alternate WLF file "./wlftq5ff6x".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftq5ff6x
+add wave -position end  sim:/rachel_ruddy_barrel_shifter_tb/stage1
+add wave -position end  sim:/rachel_ruddy_barrel_shifter_tb/sel
+add wave -position end  sim:/rachel_ruddy_barrel_shifter_tb/Y_structural
+run
+# Compile of rachel_ruddy_MUX_behavioral.vhd was successful.
+# Compile of rachel_ruddy_barrel_shifter_behavioral.vhd was successful.
+# Compile of rachel_ruddy_barrel_shifter_structural.vhd was successful.
+# Compile of rachel_ruddy_barrel_shifter_tb.vhd was successful.
+# 4 compiles, 0 failed with no errors.
+run
+run
+# End time: 15:47:09 on Oct 09,2024, Elapsed time: 0:07:15
+# Errors: 0, Warnings: 3

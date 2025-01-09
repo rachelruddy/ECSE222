@@ -1,0 +1,75 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+entity tb_counter is
+end tb_counter;
+
+architecture Behavioral of tb_counter is
+	
+	component rachel_ruddy_counter is
+		port(
+			enable : in std_logic;
+			reset  : in std_logic;
+			clk    : in std_logic;
+			count  : out std_logic_vector(2 downto 0)
+		);
+	end component;
+
+	
+	signal tb_enable : std_logic := '0';
+	signal tb_reset  : std_logic := '0';
+	signal tb_clk    : std_logic := '0';
+	signal tb_count  : std_logic_vector(2 downto 0);
+
+
+begin
+	
+	uut: rachel_ruddy_counter
+		port map(
+			enable => tb_enable,
+			reset  => tb_reset,
+			clk    => tb_clk,
+			count  => tb_count
+		);
+
+	
+	clk_gen: process
+	begin
+		tb_clk <= '0';
+		wait for 5 ns;
+		tb_clk <= '1';
+		wait for 5 ns;
+	end process;
+
+
+	stimulus: process
+	begin
+		
+		tb_reset <= '0';
+		wait for 10 ns;
+		tb_reset <= '1';
+		wait for 10 ns;
+
+		-- Enable counter
+		tb_enable <= '1';
+		wait for 100 ns; 
+
+		-- Disable counter
+		tb_enable <= '0';
+		wait for 50 ns; 
+
+		-- Re-enable counter
+		tb_enable <= '1';
+		wait for 50 ns;
+
+		-- Reset during operation
+		tb_reset <= '0';
+		wait for 10 ns;
+		tb_reset <= '1';
+		wait for 50 ns;
+
+		-- Finish simulation
+		wait;
+	end process;
+end Behavioral;
